@@ -36,6 +36,7 @@
           :collapsed-width="64"
           :collapsed-icon-size="22"
           :options="menuOptions"
+          :render-label="renderMenuLabel"
           v-model:value="activeKey"
         />
       </n-layout-sider>
@@ -69,46 +70,55 @@ const menuOptions = [
     label: 'Entrantes',
     key: 'entrantes',
     disabled: false,
+    href: '#entrante',
     icon: renderIcon(BookIcon)
   },
   {
     label: 'Platos Fuertes',
     key: 'platos_fuertes',
+    href: '#platos-fuertes',
     icon: renderIcon(BookIcon),
     children: [
       {
         label: 'Pollo',
         key: 'pollo',
+        href: '#pollo',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Cerdo',
         key: 'cerdo',
+        href: '#cerdo',
         icon: renderIcon(WineIcon)
       },
       {
         label: 'Camarón',
         key: 'camaron',
+        href: '#camaron',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Pescado',
         key: 'pescado',
+        href: '#pescado',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Otros platos',
         key: 'otros_platos',
+        href: '#otros-platos',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Pastas',
         key: 'pastas',
+        href: '#pastas',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Entrepanes',
         key: 'entrepanes',
+        href: '#entrepanes',
         icon: renderIcon(PersonIcon)
       }
     ]
@@ -116,26 +126,31 @@ const menuOptions = [
   {
     label: 'Bebidas',
     key: 'bebidas',
+    href: '#bebidas',
     icon: renderIcon(BookIcon)
   },
   {
     label: 'Cócteles',
     key: 'cocteles',
+    href: '#cocteles',
     icon: renderIcon(WineIcon),
     children: [
       {
         label: 'Flameados',
         key: 'flameados',
+        href: '#flameados',
         icon: renderIcon(BookIcon)
       },
       {
         label: 'Analcohólicos',
         key: 'analcohólicos',
+        href: '#analcoholicos',
         icon: renderIcon(BookIcon)
       },
       {
         label: 'Con Red Bull',
         key: 'cocteles_con_red_bull',
+        href: '#cocteles-con-red-bull',
         icon: renderIcon(BookIcon)
       }
     ]
@@ -143,41 +158,49 @@ const menuOptions = [
   {
     label: 'Tragos',
     key: 'tragos',
+    href: '#tragos',
     icon: renderIcon(WineIcon),
     children: [
       {
         label: 'Rones',
         key: 'rones',
+        href: '#rones',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Whisky',
         key: 'whisky',
+        href: '#whisky',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Cogñac',
-        key: 'cogñac',
+        key: 'cognhac',
+        href: '#cognhac',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Vodka',
         key: 'vodka',
+        href: '#vodka',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Ginebra',
         key: 'ginebra',
+        href: '#ginebra',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Tequila',
         key: 'tequila',
+        href: '#tequila',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Otros',
         key: 'otros',
+        href: '#otros',
         icon: renderIcon(PersonIcon)
       }
     ]
@@ -185,16 +208,19 @@ const menuOptions = [
   {
     label: 'Ofertas',
     key: 'ofertas',
+    href: '#ofertas',
     icon: renderIcon(PersonIcon),
     children: [
       {
         label: 'Botellas',
         key: 'botellas',
+        href: '#botellas',
         icon: renderIcon(PersonIcon)
       },
       {
         label: 'Botellas y Bebidas',
         key: 'botellas_y_bebidas',
+        href: '#botellas-y-bebidas',
         icon: renderIcon(PersonIcon)
       }
     ]
@@ -218,7 +244,13 @@ export default defineComponent({
     return {
       activeKey: ref(null),
       collapsed: ref(true),
-      menuOptions
+      menuOptions,
+      renderMenuLabel (option) {
+        if ('href' in option) {
+          return h('a', { href: option.href, target: '_self' }, option.label)
+        }
+        return option.label
+      }
     }
   }
 })
