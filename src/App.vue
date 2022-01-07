@@ -6,7 +6,7 @@
     <template #header>
 
     </template>
-     <template #avatar>
+      <template #avatar>
       <n-avatar
         src="https://cdnimg103.lizhi.fm/user/2017/02/04/2583325032200238082_160x160.jpg"
       />
@@ -14,7 +14,7 @@
   </n-page-header>
   <!--- <side-bar/> --->
   <!-- <div id="nav">
-     |
+      |
     <router-link to="/about">About</router-link>
   </div> -->
 
@@ -40,10 +40,6 @@
         />
       </n-layout-sider>
       <n-layout>
-        <h1>sadsadassjaljklalkdjasldjaldj</h1>
-        <div>
-        <menu-table/>
-        </div>
         <router-view/>
         <!--- <span>Content</span> --->
       </n-layout>
