@@ -1,27 +1,12 @@
 <template>
-  <n-page-header title="La Reliquia" subtitle="Bar" >
-    <template #title>
-      <router-link to="/">Home</router-link>
-    </template>
-    <template #header>
+  <div style="height: 100vh; position: relative">
+    <n-layout-header style="height: 6vh; padding: 24px;" bordered
+        >La reliquia</n-layout-header
+      >
+    <n-space vertical position="absolute">
 
-    </template>
-      <template #avatar>
-      <n-avatar
-        src="https://cdnimg103.lizhi.fm/user/2017/02/04/2583325032200238082_160x160.jpg"
-      />
-    </template>
-  </n-page-header>
-  <!--- <side-bar/> --->
-  <!-- <div id="nav">
-      |
-    <router-link to="/about">About</router-link>
-  </div> -->
-
-<n-space vertical>
-    <!--- <n-switch v-model:value="collapsed" /> --->
-    <n-layout has-sider>
-      <n-layout-sider
+      <n-layout has-sider position="absolute" style="top: 6vh; bottom: 0vh;">
+        <n-layout-sider
         bordered
         collapse-mode="width"
         :collapsed-width="64"
@@ -30,28 +15,37 @@
         show-trigger
         @collapse="collapsed = true"
         @expand="collapsed = false"
-      >
+          >
+
         <n-menu
           :collapsed="collapsed"
           :collapsed-width="64"
           :collapsed-icon-size="22"
           :options="menuOptions"
-          :render-label="renderMenuLabel"
+
           v-model:value="activeKey"
         />
-      </n-layout-sider>
-      <n-layout>
+        </n-layout-sider>
+
+        <n-layout content-style="padding: 24px;">
         <router-view/>
-        <!--- <span>Content</span> --->
+        </n-layout>
+        <n-layout-footer
+        bordered
+        position="absolute"
+        style="height: 4vh; padding: 24px;"
+        >
+        Repita su visita
+        </n-layout-footer>
       </n-layout>
-    </n-layout>
-  </n-space>
+    </n-space>
+  </div>
 </template>
 
 <script>
-// import SideBar from './components/SideBar.vue'
+import { NLayout, NLayoutHeader, NLayoutSider, NLayoutFooter, NSpace, NMenu, NIcon } from 'naive-ui'
 import { defineComponent, h, ref } from 'vue'
-import { NPageHeader, NAvatar, NIcon, NSpace, NLayout, NLayoutSider, NMenu } from 'naive-ui'
+// -------------------
 
 import {
   BookOutline as BookIcon,
@@ -228,18 +222,20 @@ const menuOptions = [
 
 ]
 
+// ------------------------------------
+
 export default defineComponent({
   components: {
-    NPageHeader,
-    NAvatar,
-    //  SideBar,
-    NSpace,
-    NLayout,
-    NLayoutSider,
-    NMenu/*,
-    MenuTable */
-  },
 
+    NLayout,
+    NLayoutHeader,
+    NLayoutSider,
+    NLayoutFooter,
+
+    NSpace,
+    NMenu
+  },
+  // -------------
   setup () {
     return {
       activeKey: ref(null),
@@ -253,6 +249,8 @@ export default defineComponent({
       }
     }
   }
+
+  // ---------------
 })
 </script>
 
