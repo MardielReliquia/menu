@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-
+// import Home from '../views/Home.vue'
+import MenuSides from '../views/MenuSide.vue'
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: MenuSides
   },
   {
     path: '/about',
@@ -22,6 +22,14 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "table" */ '../views/Table.vue')
+  },
+  {
+    path: '/menu',
+    name: 'Menu',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "menuside" */ '../views/MenuSide.vue')
   }
 ]
 

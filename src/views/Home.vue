@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
     <Homes msg="La Reliquia"/>
   </div>
 </template>

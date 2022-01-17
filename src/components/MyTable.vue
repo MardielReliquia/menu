@@ -1,13 +1,14 @@
 <template>
   <n-data-table id="data-table"
+    ref="datatable"
     :key="(row) => row.key"
     :columns="columns"
     :data="data"
-    :pagination="pagination"
-    striped
     :single-line="false"
+    striped
+    style="top:1vh; width:90vw; left:5vw; right:5vw;"
   />
- <!-- <pre>{{ JSON.stringify(data, null, 2) }}</pre> -->
+  <!-- <pre style>{{ JSON.stringify(data, null, 2) }}</pre> -->
 </template>
 
 <script>
@@ -30,6 +31,219 @@ const createData = () => [
   {
     key: 2,
     name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  },
+  {
+    key: 3,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  },
+  {
+    key: 4,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 5,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 6,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 7,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 8,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 9,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 10,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 11,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 12,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 13,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 14,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 15,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 16,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  },
+  {
+    key: 17,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 18,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 19,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 20,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 21,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 22,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 23,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 24,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 25,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 26,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 27,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 28,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 29,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 30,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 31,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 32,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 33,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 34,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 35,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 36,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 37,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 38,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 39,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 40,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 41,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 42,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 43,
+    name: 'Joe Black',
+    age: '32',
+    address: 'Sidney No. 1 Lake Park'
+  }, {
+    key: 44,
+    name: 'Final Joe Black',
     age: '32',
     address: 'Sidney No. 1 Lake Park'
   }
@@ -82,8 +296,10 @@ export default defineComponent({
   },
   setup () {
     const data = ref(createData())
+    // const page = this.datatable.page()
     return {
       data: data,
+      // page: page,
       columns: [
         {
           title: 'Name',
@@ -169,9 +385,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped>
-#data-table {
-  max-height: 70vh;
-}
-</style>
