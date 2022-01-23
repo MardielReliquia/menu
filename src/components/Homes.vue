@@ -1,37 +1,80 @@
 <template>
   <div class="hello">
     <img alt="Vue logo" src="../assets/logo.png">
-    <h1>{{ msg }}</h1>
+    <h1 id="title">{{ msg }}</h1>
     <h1>Menú</h1>
 
     <h3 id='entrante'>Entrantes</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+    <ul id=option_list>
+      <li>Ensalada estación......250 cup</li>
+      <li>Ceviche......................350 cup</li>
+      <li>Croquetas del día.......200 cup</li>
+      <li>Tostones rellenos......250 cup</li>
+      <li>Frituras de malanga..180 cup</li>
+      <li>Cóctel de camarón....400 cup</li>
+      <li>Surtido Reliquia.........650 cup</li>
+      <li>Eperlán de pescado..350 cup</li>
+      <li>Fajitas de pollo..........350 cup</li>
+
     </ul>
     <h3 id='platos-fuertes'>Platos Fuertes</h3>
     <h4 id='pollo'>Pollo</h4>
+    <ul>
+      <li>Grillé......500 cup</li>
+      <li>Curry y miel....550 cup</li>
+      <li>Salteado de vegetales...550 cup</li>
+    </ul>
     <h4 id='cerdo'>Cerdo</h4>
+    <ul>
+      <li>Ropa vieja de cerdo....650 cup</li>
+    </ul>
     <h4 id='camaron'>Camarón</h4>
+    <ul>
+      <li>Grillé...700 cup</li>
+      <li>Al Ajillo...800 cup</li>
+      <li> Salteado con vegetales...750 cup</li>
+      <li>Enchilado....750 cup</li>
+    </ul>
     <h4 id='pescado'>Pescado</h4>
+    <ul>
+      <li>Al olivo....750 cup</li>
+      <li>Al pesto...700cup</li>
+      <li>Grillé.....650cup</li>
+    </ul>
     <h4 id='otros-platos'>Otros Platos</h4>
+    <ul>
+      <li>Arroz con pollo.....700cup</li>
+      <li>Salpicón de mariscos......1200 cup</li>
+      <li>Arroz pilaf........300cup</li>
+      <li>Arroz ecológico..........250 cup</li>
+      <li>Arroz blanco........100 cup</li>
+      <li>Frijoles dormidos........130 cup</li>
+    </ul>
     <h4 id='pastas'>Pastas</h4>
+    <ul>
+      <li>Boloñesa...500cup</li>
+      <li>Nápoles.....400 cup</li>
+      <li>Pesto........400 cup</li>
+      <li>Vegetales...450 cup</li>
+      <li>Con Camarón (80 g)..650 cup</li>
+      <li>Con Camarón (80 g)..500 cup</li>
+    </ul>
     <h4 id='entrepanes'>Entrepanes</h4>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+      <li>Sandwish de pollo.....400 cup</li>
+      <li>Sandwish de jamón y queso...350 cup</li>
+      <li>Sandwish de atún......450 cup</li>
+    </ul>
+    <h3 id='postres'>Postres</h3>
+    <ul>
+      <li>Casquitos de guayaba...........250 cup</li>
+      <li>Flan.............................250 cup</li>
+      <li>Mermelada de guayaba con queso..250 cup</li>
+      <li>Ensalada de frutas................200cup</li>
     </ul>
     <h3 id='bebidas'>Bebidas</h3>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li></li>
     </ul>
 
     <h3 id='cocteles'>Cócteles</h3>
@@ -92,6 +135,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#title{
+  font-family: Dancing-script;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -99,10 +145,10 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-li {
-  /*display: inline-block;*/
+/* li {
+  display: inline-block;
   margin: 0 10px;
-}
+} */
 a {
   color: #42b983;
 }

@@ -48,7 +48,11 @@ import Homes from '../components/Homes.vue'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,
-  WineOutline as WineIcon
+  WineOutline as WineIcon,
+  IceCreamOutline as IceCreamIcon,
+  RestaurantOutline as RestaurantIcon,
+  BeerOutline as BeerIcon,
+  PintOutline as PintIcon
 } from '@vicons/ionicons5'
 
 // import MenuTable from './components/MenuTable.vue'
@@ -69,7 +73,7 @@ const menuOptions = [
     label: 'Platos Fuertes',
     key: 'platos_fuertes',
     href: '#platos-fuertes',
-    icon: renderIcon(BookIcon),
+    icon: renderIcon(RestaurantIcon),
     children: [
       {
         label: 'Pollo',
@@ -116,10 +120,16 @@ const menuOptions = [
     ]
   },
   {
+    label: 'Postres',
+    key: 'postres',
+    href: '#postres',
+    icon: renderIcon(IceCreamIcon)
+  },
+  {
     label: 'Bebidas',
     key: 'bebidas',
     href: '#bebidas',
-    icon: renderIcon(BookIcon)
+    icon: renderIcon(BeerIcon)
   },
   {
     label: 'Cócteles',
@@ -151,7 +161,7 @@ const menuOptions = [
     label: 'Tragos',
     key: 'tragos',
     href: '#tragos',
-    icon: renderIcon(WineIcon),
+    icon: renderIcon(PintIcon),
     children: [
       {
         label: 'Rones',
