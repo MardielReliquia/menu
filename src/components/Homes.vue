@@ -74,17 +74,87 @@
     </ul>
     <h3 id='bebidas'>Bebidas</h3>
     <ul>
-      <li></li>
+      <li>Cerveza Nacional...........200 cup</li>
+      <li>Cerveza Importada........200 cup</li>
+      <li>Agua Nacional...............100 cup</li>
+      <li>Agua Importada.............200 cup</li>
+      <li>Refresco Nacional.........120 cup</li>
+      <li>Refresco Importado.......150 cup</li>
+      <li>Jugos Naturales............100 cup</li>
+      <li>Limonada....................150 cup</li>
+      <li>Limonada Rebelde .........200 cup</li>
+      <li>Bebidas energéticas.......250 cup</li>
+      <li>Copa de Vino.............250 cup</li>
+      <li>Red Bull.................300 cup</li>
     </ul>
 
     <h3 id='cocteles'>Cócteles</h3>
+    <ul>
+      <li>Mojito...............................250 cup</li>
+      <li>Daiquirí...........................250 cup</li>
+      <li>Daiquirí de Frutas.................300 cup</li>
+      <li>Canchánchara.....................250 cup</li>
+      <li>Cuba libre..........................250 cup</li>
+      <li>Cubata..................................300 cup</li>
+      <li>Ron Collins...........................250 cup</li>
+      <li>Michelada de Cervezas Nacionales...350 cup</li>
+      <li>Michelada de Cervezas Importadas...350 cup</li>
+      <li>Cubanito............................400 cup</li>
+      <li>Caipiroska.........................300 cup</li>
+      <li>Caipirinha.........................300 cup</li>
+      <li>Caipirissima........................300 cup</li>
+      <li>Manhattan............................400 cup</li>
+      <li>Piña Colada.........................300 cup</li>
+      <li>Alexander............................450 cup</li>
+      <li>Screwdriver..............................250 cup</li>
+      <li>Gin Tonic...................................300 cup</li>
+      <li>Margarita...................................300 cup</li>
+      <li>Long Island Ice Tea............................450 cup</li>
+      <li>Sangría Natural................................350 cup</li>
+      <li>Tinto de Verano.........................300 cup</li>
+      <li>Negroni...........................................550 cup</li>
+      <li>Campari Orange...............................500 cup</li>
+      <li>Martini Seco.............................450 cup</li>
+      <li>Martini Dulce...........................450 cup</li>
+      <li>Babe Habana...............................550 cup</li>
+      <li>Orgasmo...................................550 cup</li>
+      <li>Pingoleta Rapada........................350 cup</li>
+      <li>Pingoleta Peluda........................350 cup</li>
+    </ul>
     <h4 id=flameados>Flameados</h4>
+    <ul>
+      <li>B-52............550 cup</li>
+      <li>Diablo Rojo........500 cup</li>
+      <li>Diablo Azul........500 cup</li>
+    </ul>
     <h4 id='analcoholicos'>Analcohólicos</h4>
+    <ul>
+      <li>San Francisco.......200 cup</li>
+      <li>Shirley Temple.....200 cup</li>
+    </ul>
     <h4 id='cocteles-con-red-bull'>Con Red Bull</h4>
+    <ul>
+      <li>Relic Bull..........600 cup</li>
+      <li>Relic Bull..........700 cup</li>
+      <li>Cosmopolitan......300 cup</li>
+      <li>Mojito Bull.......700 cup</li>
+      <li>Vodka Bull........700 cup</li>
+      <li>Limonada Eléctrica...450cup</li>
+    </ul>
 
     <h3 id='tragos'>Tragos</h3>
     <h4 id='rones'>Rones</h4>
+    <ul>
+      <li>Havana Club Especial.........250 cup</li>
+      <li>Havana Club 7 años............300 cup</li>
+      <li>Selección de Maestros.........400 cup</li>
+      <li>Havana Club 15 años.............700 cup</li>
+      <li>Ron Santiago Añejo.............250 cup</li>
+      <li>Ron Santiago 11 años...........400 cup</li>
+      <li>Ron Santiago 12 año.............500 cup</li>
+    </ul>
     <h4 id='whisky'>Whisky</h4>
+    <ul></ul>
     <h4 id='cognhac'>Cogñac</h4>
     <h4 id='vodka'>Vodka</h4>
     <h4 id='ginebra'>Ginebra</h4>
