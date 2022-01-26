@@ -33,7 +33,7 @@
         position="absolute"
         style="height: 4vh;"
         >
-        Repita su visita
+            Repita su visita
         </n-layout-footer>
       </n-layout>
     </n-space>

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.jpg">
     <h1 id="title">{{ msg }}</h1>
     <h1>Menú</h1>
 
@@ -208,39 +208,74 @@
       <li> Gin Master.........250 cup</li>
     </ul>
     <h4 id='tequila'>Tequila</h4>
+    <ul>
+      <li>Jose Cuervo Especial......600 cup</li>
+      <li>Patrón Silver...........600 cup</li>
+      <li>Patrón Añejo............750 cup</li>
+      <li>Don Julio Blanco.......600 cup</li>
+      <li>Don Julio blanco.......700 cup</li>
+      <li>Don Julio Añejo........750 cup</li>
+      <li>1800 reposado...........750 cup</li>
+    </ul>
     <h4 id='otros'>Otros</h4>
+    <ul>
+      <li>Jagger.........400 cup</li>
+      <li>Frangelico........350 cup</li>
+      <li>Bailey´s.............300 cup</li>
+      <li>Amaretto...............360 cup</li>
+      <li>Malibú..................300 cup</li>
+    </ul>
 
     <h3 id:='ofertas'>Ofertas</h3>
     <h4 id:='botellas'>Botellas</h4>
+    <ul>
+      <li>Havana Club 7 años.................3600 cup</li>
+      <li>Selección de Maestros................4800 cup</li>
+      <li>Santiago 11 años....................4600 cup</li>
+      <li>Santiago 12 años....................5000 cup</li>
+      <li>Jhonnie Walker Red(750 ml)..........5500 cup</li>
+      <li>Jhonnie Walker Black(750 ml)........6200 cup</li>
+      <li>Chivas Regal 12 años................6400 cup</li>
+      <li>Grey Goose.........................9000 cup</li>
+    </ul>
     <h4 id:='botellas-y-bebidas'>Botellas y Bebidas</h4>
-
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3><h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3><h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3><h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3><h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
-    <h3 id='calvo'>adadall</h3>
+    <ul>
+      <li>Havana Club 7 años + 2 Refrescos Nacionales................3800 cup</li>
+      <li>Black and White + 2 Bebidas Energéticas.......................4200 cup</li>
+    </ul>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </template>
 
 <script>
@@ -254,6 +289,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#blank{
+  padding-bottom: 300px;
+}
 #title{
   font-family: Dancing-script;
 }
