@@ -154,10 +154,59 @@
       <li>Ron Santiago 12 año.............500 cup</li>
     </ul>
     <h4 id='whisky'>Whisky</h4>
-    <ul></ul>
+    <ul>
+      <li>J&B.........300 cup</li>
+      <li>Jameson.....250 cup</li>
+      <li>Ballentine’s...250 cup</li>
+      <li>Chivas 12.......400 cup</li>
+      <li>Chivas 18.......600 cup</li>
+      <li>Chivas 25.......1500 cup</li>
+      <li>Jhonnie Walker Red...350 cup</li>
+      <li>Jhonnie Walker Black....500cup</li>
+      <li>Jhonnie Walker Double Black...950 cup</li>
+      <li>Jhonnie Walker Gold Label.....900 cup</li>
+      <li>Jhonnie Walker Green Label....850 cup</li>
+      <li>Jhonnie Walker Platinum Label..1500 cup</li>
+      <li>Jhonnie Walker Blue Label.......1900 cup</li>
+      <li>Jack Daniel’s........360 cup</li>
+      <li>Glenlivet............400 cup</li>
+      <li>Clan Campbell..........250 cup</li>
+      <li>Glenfiddich............500 cup</li>
+      <li>Jack Daniel’s Honey.....360 cup</li>
+      <li>Buchanan 12 años........650 cup</li>
+      <li>Swing....................800 cup</li>
+      <li>Macallan..................900 cup</li>
+      <li>Old Parr...................900 cup</li>
+      <li>Dimple.....................980 cup</li>
+    </ul>
     <h4 id='cognhac'>Cogñac</h4>
+    <ul>
+      <li>Hennessy............500 cup</li>
+      <li>St Remy..............450 cup</li>
+      <li>Remy Martin...........650 cup</li>
+    </ul>
     <h4 id='vodka'>Vodka</h4>
+    <ul>
+      <li>Ciroc Blue...........400 cup</li>
+      <li>Ciroc Manzana........450 cup</li>
+      <li>Ciroc Piña...........450 cup</li>
+      <li>Ciroc Vainilla........450 cup</li>
+      <li>Ciroc Coco...........450 cup</li>
+      <li>Ciroc Pera...........450 cup</li>
+      <li>Grey Goose...........600 cup</li>
+      <li>Absolut Vodka..........420 cup</li>
+      <li>Absolut Vodka Mandarina.....420 cup</li>
+    </ul>
     <h4 id='ginebra'>Ginebra</h4>
+    <ul>
+      <li>Bombay..............400 cup</li>
+      <li>Hendrick’s..........600 cup</li>
+      <li>Tanqueray...........300 cup</li>
+      <li>Tanqueray n.10......400 cup</li>
+      <li>Beefeater...........300 cup</li>
+      <li> Beefeater 24.......350 cup</li>
+      <li> Gin Master.........250 cup</li>
+    </ul>
     <h4 id='tequila'>Tequila</h4>
     <h4 id='otros'>Otros</h4>
 
