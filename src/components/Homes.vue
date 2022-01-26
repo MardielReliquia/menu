@@ -276,6 +276,7 @@
   <br>
   <br>
   <br>
+  <h3 id="blank"></h3>
 </template>
 
 <script>
@@ -289,9 +290,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#blank{
-  padding-bottom: 300px;
-}
 #title{
   font-family: Dancing-script;
 }
