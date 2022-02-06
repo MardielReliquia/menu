@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.jpg">
+    <img class="image-logo" alt="Vue logo" src="../assets/logo.jpg">
     <h1 id="title">{{ msg }}</h1>
     <h1>Menú</h1>
 
@@ -306,5 +306,9 @@ ul {
 } */
 a {
   color: #42b983;
+}
+.image-logo{
+  max-width: 200px;
+  height: auto;
 }
 </style>
