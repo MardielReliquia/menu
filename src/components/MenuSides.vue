@@ -47,12 +47,13 @@ import Homes from '../components/Homes.vue'
 
 import {
   BookOutline as BookIcon,
-  PersonOutline as PersonIcon,
+  // PersonOutline as PersonIcon,
   WineOutline as WineIcon,
   IceCreamOutline as IceCreamIcon,
   RestaurantOutline as RestaurantIcon,
   BeerOutline as BeerIcon,
-  PintOutline as PintIcon
+  PintOutline as PintIcon,
+  MedicalOutline as MedicalIcon
 } from '@vicons/ionicons5'
 
 // import MenuTable from './components/MenuTable.vue'
@@ -79,43 +80,43 @@ const menuOptions = [
         label: 'Pollo',
         key: 'pollo',
         href: '#pollo',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Cerdo',
         key: 'cerdo',
         href: '#cerdo',
-        icon: renderIcon(WineIcon)
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Camarón',
         key: 'camaron',
         href: '#camaron',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Pescado',
         key: 'pescado',
         href: '#pescado',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Otros platos',
         key: 'otros_platos',
         href: '#otros-platos',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Pastas',
         key: 'pastas',
-        href: '#botellas_y_bebidas',
-        icon: renderIcon(PersonIcon)
+        href: '#pastas',
+        icon: renderIcon(BookIcon)
       },
       {
         label: 'Entrepanes',
         key: 'entrepanes',
         href: '#entrepanes',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(BookIcon)
       }
     ]
   },
@@ -141,19 +142,19 @@ const menuOptions = [
         label: 'Flameados',
         key: 'flameados',
         href: '#flameados',
-        icon: renderIcon(BookIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Analcohólicos',
         key: 'analcohólicos',
         href: '#analcoholicos',
-        icon: renderIcon(BookIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Con Red Bull',
         key: 'cocteles_con_red_bull',
         href: '#cocteles-con-red-bull',
-        icon: renderIcon(BookIcon)
+        icon: renderIcon(WineIcon)
       }
     ]
   },
@@ -167,43 +168,43 @@ const menuOptions = [
         label: 'Rones',
         key: 'rones',
         href: '#rones',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Whisky',
         key: 'whisky',
         href: '#whisky',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Cogñac',
         key: 'cognhac',
         href: '#cognhac',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Vodka',
         key: 'vodka',
         href: '#vodka',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Ginebra',
         key: 'ginebra',
         href: '#ginebra',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Tequila',
         key: 'tequila',
         href: '#tequila',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       },
       {
         label: 'Otros',
         key: 'otros',
         href: '#otros',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(WineIcon)
       }
     ]
   },
@@ -211,19 +212,19 @@ const menuOptions = [
     label: 'Ofertas',
     key: 'ofertas',
     href: '#ofertas',
-    icon: renderIcon(PersonIcon),
+    icon: renderIcon(MedicalIcon),
     children: [
       {
         label: 'Botellas',
         key: 'botellas',
         href: '#botellas',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(MedicalIcon)
       },
       {
         label: 'Botellas y Bebidas',
         key: 'botellas_y_bebidas',
         href: '#botellas-y-bebidas',
-        icon: renderIcon(PersonIcon)
+        icon: renderIcon(MedicalIcon)
       }
     ]
   }
