@@ -244,7 +244,7 @@
       <li>Black and White + 2 Bebidas Energéticas.......................4200 cup</li>
     </ul>
   </div>
-  <a href="https://facebook.com/100058034737644" target="_blank"><n-icon id="facebook" size="50"><Facebook/></n-icon></a>
+  <a href="https://www.facebook.com/lareliquia.habana.7" target="_blank"><n-icon id="facebook" size="50"><Facebook/></n-icon></a>
   <a href="https://instagram.com/lareliquia_habana?utm_medium=copy_link" target="_blank"><n-icon id="instagram" size="50"><Instagram/></n-icon></a>
 
   <h3 id="blank"></h3>
