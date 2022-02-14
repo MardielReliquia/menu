@@ -226,8 +226,8 @@
       <li>Malibú..................300 cup</li>
     </ul>
 
-    <h3 id:='ofertas'>Ofertas</h3>
-    <h4 id:='botellas'>Botellas</h4>
+    <h3 id='ofertas'>Ofertas</h3>
+    <h4 id='botellas'>Botellas</h4>
     <ul>
       <li>Havana Club 7 años.................3600 cup</li>
       <li>Selección de Maestros................4800 cup</li>
@@ -238,54 +238,38 @@
       <li>Chivas Regal 12 años................6400 cup</li>
       <li>Grey Goose.........................9000 cup</li>
     </ul>
-    <h4 id:='botellas-y-bebidas'>Botellas y Bebidas</h4>
+    <h4 id='botellas-y-bebidas'>Botellas y Bebidas</h4>
     <ul>
       <li>Havana Club 7 años + 2 Refrescos Nacionales................3800 cup</li>
       <li>Black and White + 2 Bebidas Energéticas.......................4200 cup</li>
     </ul>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <a href="https://facebook.com/100058034737644" target="_blank"><n-icon id="facebook" size="50"><Facebook/></n-icon></a>
+  <a href="https://instagram.com/lareliquia_habana?utm_medium=copy_link" target="_blank"><n-icon id="instagram" size="50"><Instagram/></n-icon></a>
+
   <h3 id="blank"></h3>
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+import { NIcon } from 'naive-ui'
+import {
+  LogoInstagram as Instagram,
+  LogoFacebook as Facebook
+} from '@vicons/ionicons5'
+
+export default defineComponent({
   name: 'Homes',
+  components: {
+    NIcon,
+    Facebook,
+    Instagram
+  },
   props: {
     msg: String
   }
-}
+
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -304,11 +288,18 @@ ul {
   display: inline-block;
   margin: 0 10px;
 } */
-a {
-  color: #42b983;
+#instagram {
+  color: rgb(245, 20, 170);
+}
+
+#facebook{
+  color: blue;
 }
 .image-logo{
   max-width: 200px;
   height: auto;
+}
+a:hover {
+  color: green;
 }
 </style>
