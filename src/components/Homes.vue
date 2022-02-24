@@ -7,10 +7,8 @@
     <h3 id='entrante'>Entrantes</h3>
     <ul id=option_list>
       <li>Ensalada estación......250 cup</li>
-      <li>Ceviche......................350 cup</li>
       <li>Croquetas del día.......200 cup</li>
       <li>Tostones rellenos......250 cup</li>
-      <li>Frituras de malanga..180 cup</li>
       <li>Cóctel de camarón....400 cup</li>
       <li>Surtido Reliquia.........650 cup</li>
       <li>Eperlán de pescado..350 cup</li>
@@ -20,44 +18,38 @@
     <h3 id='platos-fuertes'>Platos Fuertes</h3>
     <h4 id='pollo'>Pollo</h4>
     <ul>
-      <li>Grillé......500 cup</li>
-      <li>Curry y miel....550 cup</li>
-      <li>Salteado de vegetales...550 cup</li>
+      <li>Grillé......600 cup</li>
     </ul>
     <h4 id='cerdo'>Cerdo</h4>
     <ul>
-      <li>Ropa vieja de cerdo....650 cup</li>
+      <li>Ropa vieja de cerdo....700 cup</li>
     </ul>
     <h4 id='camaron'>Camarón</h4>
     <ul>
-      <li>Grillé...700 cup</li>
-      <li>Al Ajillo...800 cup</li>
-      <li> Salteado con vegetales...750 cup</li>
-      <li>Enchilado....750 cup</li>
+      <li>Grillé...750 cup</li>
+      
     </ul>
     <h4 id='pescado'>Pescado</h4>
     <ul>
-      <li>Al olivo....750 cup</li>
-      <li>Al pesto...700cup</li>
-      <li>Grillé.....650cup</li>
+
+      <li>Grillé.....700cup</li>
     </ul>
     <h4 id='otros-platos'>Otros Platos</h4>
     <ul>
-      <li>Arroz con pollo.....700cup</li>
-      <li>Salpicón de mariscos......1200 cup</li>
-      <li>Arroz pilaf........300cup</li>
-      <li>Arroz ecológico..........250 cup</li>
+      <li>Arroz con pollo.....600cup</li>
+      <li>Salpicón de mariscos......900 cup</li>
+      <li>Picadillo Reliquia........500cup</li>
+      <li>Albóndigas Reliquia.........450 cup</li>
       <li>Arroz blanco........100 cup</li>
-      <li>Frijoles dormidos........130 cup</li>
+      <li>Frijoles dormidos........120 cup</li>
     </ul>
     <h4 id='pastas'>Pastas</h4>
     <ul>
-      <li>Boloñesa...500cup</li>
-      <li>Nápoles.....400 cup</li>
-      <li>Pesto........400 cup</li>
-      <li>Vegetales...450 cup</li>
-      <li>Con Camarón (80 g)..650 cup</li>
-      <li>Con Camarón (80 g)..500 cup</li>
+      <li>Boloñesa...550cup</li>
+      <li>Pesto........500 cup</li>
+      <li>Vegetales...500 cup</li>
+      <li>Con Camarón .....650 cup</li>
+      <li>Con Pollo ....560 cup</li>
     </ul>
     <h4 id='entrepanes'>Entrepanes</h4>
     <ul>
@@ -65,27 +57,19 @@
       <li>Sandwish de jamón y queso...350 cup</li>
       <li>Sandwish de atún......450 cup</li>
     </ul>
-    <h3 id='postres'>Postres</h3>
-    <ul>
-      <li>Casquitos de guayaba...........250 cup</li>
-      <li>Flan.............................250 cup</li>
-      <li>Mermelada de guayaba con queso..250 cup</li>
-      <li>Ensalada de frutas................200cup</li>
-    </ul>
     <h3 id='bebidas'>Bebidas</h3>
     <ul>
       <li>Cerveza Nacional...........200 cup</li>
       <li>Cerveza Importada........200 cup</li>
       <li>Agua Nacional...............100 cup</li>
-      <li>Agua Importada.............200 cup</li>
-      <li>Refresco Nacional.........120 cup</li>
-      <li>Refresco Importado.......150 cup</li>
+      <li>Agua Importada.............150 cup</li>
+      <li>Refresco Nacional.........150 cup</li>
+      <li>Refresco Importado.......200 cup</li>
       <li>Jugos Naturales............100 cup</li>
-      <li>Limonada....................150 cup</li>
-      <li>Limonada Rebelde .........200 cup</li>
-      <li>Bebidas energéticas.......250 cup</li>
+      <li>Limonada Rebelde .........150 cup</li>
+      <li>Bebidas energéticas.......300 cup</li>
       <li>Copa de Vino.............250 cup</li>
-      <li>Red Bull.................300 cup</li>
+      
     </ul>
 
     <h3 id='cocteles'>Cócteles</h3>
@@ -97,18 +81,16 @@
       <li>Cuba libre..........................250 cup</li>
       <li>Cubata..................................300 cup</li>
       <li>Ron Collins...........................250 cup</li>
-      <li>Michelada de Cervezas Nacionales...350 cup</li>
-      <li>Michelada de Cervezas Importadas...350 cup</li>
-      <li>Cubanito............................400 cup</li>
+      <li>Michelada.........................300 cup</li>
       <li>Caipiroska.........................300 cup</li>
       <li>Caipirinha.........................300 cup</li>
       <li>Caipirissima........................300 cup</li>
       <li>Manhattan............................400 cup</li>
-      <li>Piña Colada.........................300 cup</li>
+      <li>Piña Colada.........................350 cup</li>
       <li>Alexander............................450 cup</li>
       <li>Screwdriver..............................250 cup</li>
-      <li>Gin Tonic...................................300 cup</li>
-      <li>Margarita...................................300 cup</li>
+      <li>Gin Tonic...................................350 cup</li>
+      <li>Margarita...................................350 cup</li>
       <li>Long Island Ice Tea............................450 cup</li>
       <li>Sangría Natural................................350 cup</li>
       <li>Tinto de Verano.........................300 cup</li>
@@ -120,6 +102,9 @@
       <li>Orgasmo...................................550 cup</li>
       <li>Pingoleta Rapada........................350 cup</li>
       <li>Pingoleta Peluda........................350 cup</li>
+      <li>B-52..................................550 cup</li>
+      <li>Diablo Rojo...........................500 cup</li>
+      <li>Diablo Azul...........................500 cup</li>
     </ul>
     <h4 id=flameados>Flameados</h4>
     <ul>
