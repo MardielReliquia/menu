@@ -19,7 +19,6 @@
     <h4 id='pollo'>Pollo</h4>
     <ul>
       <li>Grillé......600 cup</li>
-      
     </ul>
     <h4 id='cerdo'>Cerdo</h4>
     <ul>
@@ -28,7 +27,6 @@
     <h4 id='camaron'>Camarón</h4>
     <ul>
       <li>Grillé...750 cup</li>
-      
     </ul>
     <h4 id='pescado'>Pescado</h4>
     <ul>
@@ -57,7 +55,7 @@
       <li>Sandwish de jamón y queso...350 cup</li>
       <li>Sandwish de atún......450 cup</li>
     </ul>
-    <h3 id='postres'>Café</h3>
+    <h3 id='cafe'>Café</h3>
     <ul>
       <li>Expreso...........80 cup</li>
       <li>Cortado.............................100 cup</li>

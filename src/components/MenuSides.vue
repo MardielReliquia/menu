@@ -55,9 +55,7 @@ import {
   PintOutline as PintIcon,
   MedicalOutline as MedicalIcon
 } from '@vicons/ionicons5'
-
 // import MenuTable from './components/MenuTable.vue'
-
 function renderIcon (icon) {
   return () => h(NIcon, null, { default: () => h(icon) })
 }
@@ -121,9 +119,9 @@ const menuOptions = [
     ]
   },
   {
-    label: 'Postres',
-    key: 'postres',
-    href: '#postres',
+    label: 'Café',
+    key: 'cafe',
+    href: '#cafe',
     icon: renderIcon(IceCreamIcon)
   },
   {
