@@ -49,7 +49,7 @@ import {
   BookOutline as BookIcon,
   // PersonOutline as PersonIcon,
   WineOutline as WineIcon,
-  IceCreamOutline as IceCreamIcon,
+  CafeOutline as CafeIcon,
   RestaurantOutline as RestaurantIcon,
   BeerOutline as BeerIcon,
   PintOutline as PintIcon,
@@ -122,7 +122,7 @@ const menuOptions = [
     label: 'Café',
     key: 'cafe',
     href: '#cafe',
-    icon: renderIcon(IceCreamIcon)
+    icon: renderIcon(CafeIcon)
   },
   {
     label: 'Bebidas',

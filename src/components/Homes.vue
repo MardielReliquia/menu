@@ -71,7 +71,7 @@
       <li>Refresco Nacional.........150 cup</li>
       <li>Refresco Importado.......200 cup</li>
       <li>Jugos Naturales............100 cup</li>
-      <li>Limonada Rebelde....................150 cup</li>      
+      <li>Limonada Rebelde....................150 cup</li>
       <li>Bebidas energéticas.......300 cup</li>
       <li>Copa de Vino.............250 cup</li>
     </ul>
@@ -106,7 +106,7 @@
       <li>Babe Habana...............................550 cup</li>
       <li>Orgasmo...................................550 cup</li>
       <li>Pingoleta Rapada........................350 cup</li>
-      <li>Pingoleta Rapada........................350 cup</li>  
+      <li>Pingoleta Rapada........................350 cup</li>
     </ul>
     <h4 id='flameados'>Flameados</h4>
     <ul>
@@ -143,7 +143,7 @@
       <li>J&B.........300 cup</li>
       <li>Jameson.....250 cup</li>
       <li>Ballentine’s...250 cup</li>
-      <li>Chivas 12.......400 cup</li>      
+      <li>Chivas 12.......400 cup</li>
       <li>Jhonnie Walker Red...350 cup</li>
       <li>Jhonnie Walker Black....500cup</li>
       <li>Jhonnie Walker Double Black...650 cup</li>
